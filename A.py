@@ -16,4 +16,7 @@ def greet(name):
     return("hello"+name)
 print(greet(" Aniket"))
 
+def greet(name,age):
+    return("hello "+name+" your age is "+age)
 
+print(greet("Aniket","23"))
